@@ -1,0 +1,167 @@
+.liveNews {
+    display: flex;
+    align-items: flex-start;
+    margin: 24px 50px 0 50px;
+
+    padding-bottom: 10px ;
+    border-bottom: 1px dotted black;
+
+}
+
+.liveNews__left {
+    width: 48%;
+    padding-right: 25px;
+
+}
+
+.liveNews__main {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.liveNews__main img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    transition: all 1s;
+}
+
+
+.liveNews__main img:hover {
+    transform: scale(1.1);
+}
+
+
+.liveNews__main-title {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+}
+
+.liveOthers {
+    padding-top: 15px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px 15px;
+}
+
+.liveOther__single {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px dotted rgba(0, 0, 0, .3);
+}
+
+.liveOther__single:first-child,
+.liveOther__single:nth-child(2) {
+    border-top: none;
+}
+
+.liveOther__single p {
+    font-size: 13px;
+    width: 80%;
+
+}
+
+.liveOther__img {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 5px;
+    width: 80px;
+}
+
+.liveOther__img img {
+    width: 100px;
+    height: 55px;
+    object-fit: cover;
+    vertical-align: bottom;
+    transition: all 1s;
+}
+
+.liveOther__img img:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+
+.liveNews__center {
+    width: 15%;
+    padding: 0 25px;
+    border-right: 1px dotted #a5a5a5;
+    border-left: 1px dotted #a5a5a5;
+}
+
+
+.newsVideos__single {
+    margin-bottom: 20px;
+}
+
+.newsVideos__img {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.newsVideos__img img {
+    width: 100%;
+    vertical-align: bottom;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.newsVideos__img img:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+.newsVideos__single p {
+    font-size: 13px;
+    /* margin: 0px; */
+    /* padding: 0px ; */
+}
+
+
+
+.liveNews__right {
+    width: 34%;
+}
+
+.newsShorts {
+    padding: 0px;
+    margin: 0%;
+ 
+
+}
+.newsShorts__single{
+padding-top: 0%;
+
+
+}
+.newsShorts ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.newsShorts li {
+    padding: 7px 0;
+    margin-left: 15px;
+    margin-top: 0;
+    border-bottom: 1px dotted #a5a5a5;
+}
+
+.newsShorts span {
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
